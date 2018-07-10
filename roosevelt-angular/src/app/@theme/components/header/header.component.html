@@ -1,0 +1,18 @@
+<div class="header-container"
+     [class.left]="position === 'normal'"
+     [class.right]="position === 'inverse'">
+  <div class="logo-containter">
+    <a (click)="toggleSidebar()" href="#" class="navigation">
+      <img src="assets/images/telbook.png" width="32px" height="48px"/>
+    </a>
+    <div class="logo" (click)="goToHome()"><b>TELBOOK</b></div>
+  </div>
+</div>
+
+<div
+  size="medium"
+  class="header-container"
+  [class.right]="position === 'normal'"
+  [class.left]="position === 'inverse'">
+  <div><img src="assets/images/logo_cesar_school_black.png"/></div>
+</div>

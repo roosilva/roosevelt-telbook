@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-header>{{descPergunta}}.</nb-card-header>
+      <nb-card-body>
+          <div echarts [options]="options" class="echart"></div>
+          <div>Total de entrevistados: <b>{{total}}</b></div>
+      </nb-card-body>
+      <nb-card-footer style="text-align: center">
+        <a href="#/pages/consumer/dados-satisfacao/perguntas"> 
+          <button type="button" class="btn btn-secondary">Voltar</button>
+        </a> 
+      </nb-card-footer>
+    </nb-card>
+  </div>
+</div>
